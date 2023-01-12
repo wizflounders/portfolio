@@ -1,0 +1,23 @@
+{
+    "name": "gulp",
+    "version": "1.0.0",
+    "scripts": {
+        "start": "gulp"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.20.7",
+        "@babel/preset-env": "^7.20.2",
+        "autoprefixer": "*",
+        "browser-sync": "*",
+        "cssnano": "*",
+        "cssnano-preset-advanced": "*",
+        "gulp": "^4.0.2",
+        "gulp-babel": "^8.0.0",
+        "gulp-concat": "*",
+        "gulp-csscomb": "*",
+        "gulp-postcss": "*",
+        "gulp-sass": "*",
+        "gulp-uglify": "*",
+        "sass": "^1.49.7"
+    }
+}

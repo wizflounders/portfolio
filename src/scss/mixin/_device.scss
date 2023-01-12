@@ -1,0 +1,39 @@
+@mixin device($size) {
+  @if $size == mobile-sm {
+    @media (min-width: 375px) {
+      @content;
+    }
+  } @else if $size == mobile {
+    @media (min-width: 414px) {
+      @content;
+    }
+  } @else if $size == tablet {
+    @media (min-width: 768px) {
+      @content;
+    }
+  } @else if $size == desktop {
+    @media (min-width: 992px) {
+      @content;
+    }
+  } @else if $size == desktop-med {
+    @media (min-width: 1200px) {
+      @content;
+    }
+  } @else if $size == desktop-large {
+    @media (min-width: 1300px) {
+      @content;
+    }
+  }
+}
+
+/**
+ Usage
+
+.my-box {
+  padding: 10px;
+
+  @include device(desktop) {
+    padding: 20px;
+  }
+}
+**/

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+  <g id="グループ_17" data-name="グループ 17" transform="translate(-98 -22)">
+    <g id="グループ_16" data-name="グループ 16">
+      <g id="グループ_15" data-name="グループ 15">
+        <path id="パス_3" data-name="パス 3" d="M0,0H64V64H0Z" transform="translate(98 22)" fill="rgba(240,144,141,0.67)"/>
+      </g>
+    </g>
+    <g id="グループ_14" data-name="グループ 14">
+      <text id="MT" transform="translate(104 67)" fill="#fff" font-size="34" font-family="HelveticaNeue-Bold, Helvetica Neue" font-weight="700"><tspan x="0" y="0">MT</tspan></text>
+    </g>
+  </g>
+</svg>

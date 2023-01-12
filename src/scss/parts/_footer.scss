@@ -1,0 +1,21 @@
+.footer__copyright {
+    &__wrap {
+        background-color: rgba(240,144,141,0.35);
+        height: 76px;
+        text-align: center;
+
+        @include device (desktop) {
+            height: 130px;
+        }
+        
+        p {
+            @include font-size (16px);
+            line-height: 76px;
+            opacity: .75;
+
+            @include device (desktop) {
+                line-height: 130px;
+            }
+        }
+    }
+}

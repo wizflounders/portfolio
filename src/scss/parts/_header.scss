@@ -1,0 +1,102 @@
+.header {
+    &__wrap {
+        display: flex;
+        @include font-size (12px);
+        justify-content: space-between;
+        height: 70px;
+
+        @include device(desktop) {
+            border-bottom: 1px solid #707070;
+            @include font-size (20px);
+            font-weight: 600;
+            height: 105px;
+            opacity: .75;
+        }
+    }
+    &__logo {
+        line-height: 70px;
+        display: flex;
+        padding-left: 8%;
+        width: 50%;
+
+        @include device(desktop) {
+            
+            line-height: 105px;
+            
+        }
+
+        img {
+            display: block;
+            margin: auto 0;
+            height: 40px;
+            width: 40px;
+
+            @include device(desktop) {
+                display: block;
+                height: 64px;
+                width: 64px;
+                margin: auto 0;
+            }
+        }
+        p {
+            margin-left: 20px;
+
+            @include device(desktop) {
+                margin-left: 30px;
+            }
+        }
+    }
+    &__gnav-pc {
+        display: none;
+
+        @include device(desktop) {
+            display: block;
+            padding-right: 8%;
+            width: 50%;
+        }
+
+        ul {
+            display: flex;
+            justify-content: space-between;
+            line-height: 105px;
+        }
+    }
+    .sp__hamburger-menu {
+        background-color: rgba(240,144,141,0.74);
+        cursor: pointer;
+        display: block;      
+        width: 47px;      
+        height: 50px;      
+        position: relative;      
+        z-index: 9999;
+        border:none;    
+        
+        @include device(desktop) {
+            display: none;
+        }
+
+        .bar {      
+            width: 20px;      
+            height: 1px;        
+            display: block;      
+            position: absolute;      
+            left: 50%;      
+            transform: translateX(-50%);      
+            background-color: #fff;    
+        }
+
+        .bar__top{   
+            top: 18px;
+        }
+        
+        .bar__mid{    
+            top: 50%;
+            transform: translate(-50%,-50%);
+        }
+        
+        .bar__bottom{
+            bottom: 18px;
+        } 
+    }
+
+}

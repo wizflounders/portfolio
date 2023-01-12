@@ -1,0 +1,304 @@
+.top {
+    &__main-visual {
+        &__wrap {
+            margin: 0 auto;
+            padding: 30px 0 30px 0;
+            width: 90%;
+
+            @include device(desktop) {
+                display: flex;
+                justify-content: center;
+                padding: 112px 0 150px 0;
+            }
+        }
+
+        &__content {
+            margin: 0 auto;
+            opacity: .75;
+            width: 100%;
+
+            @include device(desktop) {
+                display: flex;
+                flex-flow: column;
+                padding-right: 32px;
+                width: 36%;
+            }
+
+            &__name {
+                background-image: url(../../img/hero-img.png);
+                background-position: center;
+                background-size:  cover; 
+                background-repeat: no-repeat;
+                display: flex;
+                flex-flow: column;
+                justify-content: center;
+                min-height: 242px;
+                text-align: center;
+                
+                @include device(desktop) {
+                    background-image: none;
+                    text-align: unset;   
+                }
+                
+                h2 {
+                    @include font-size (30px);
+                    font-weight: normal;
+
+                    @include device(desktop) {
+                        @include font-size (50px);
+                        margin-top: 15%;
+                    } 
+                }
+                h3 {
+                    @include font-size (16px);
+                    font-weight: normal;
+                    
+                    
+
+                    @include device(desktop) {
+                        @include font-size (20px);
+                        margin-top: 5%;
+                    }
+                }
+            }
+            p {
+                @include font-size (14px);
+                line-height: 2.1;
+                margin-top: 37px;
+
+                @include device(desktop) {
+                    @include font-size (16px);
+                    line-height: 2.25;
+                    margin-top: 15%;
+                }
+            }
+        }
+
+        &__image {
+            display: none;
+            @include device(desktop) {
+                display: flex;
+                align-items: center;
+                width: 64%;
+            }
+         
+            
+            img { 
+                width: 100%;
+            }
+        }
+    }
+    &__about {
+        &__wrap {
+            margin: 0 auto;
+            padding-bottom: 58px;
+            width: 90%;
+
+            @include device(desktop) {
+                display: flex;
+                justify-content: center;
+                padding-bottom: 150px;
+            }
+        }
+        &__title-sp {
+            @include font-size (30px);
+            font-weight: normal;
+            opacity: .75;
+            text-align: center;
+
+            @include device(desktop) {
+                display: none;
+            }
+
+        }
+        &__subtitle-sp {
+            @include font-size (14px);
+            font-weight: normal;
+            opacity: .75;
+            text-align: center;
+
+            @include device(desktop) {
+                display: none;
+            }
+        }
+
+        &__image {
+            margin-top: 36px;
+            text-align: center;
+            @include device(desktop) {
+                display: flex;
+                align-items: center;
+                margin-top: unset;
+                text-align: unset;
+                width: 24%;
+
+                img {
+                    width: 100%;
+                }
+            }
+        }
+        &__content {
+            opacity: .75;
+            @include device(desktop) {
+                display: flex;
+                flex-flow: column;
+                padding-left: 108px;
+            }    
+
+           &__title-pc {
+                display: none;
+
+                @include device(desktop) {
+                    @include font-size (36px);
+                    font-weight: normal;
+                }
+            }
+            &__subtitle-pc {
+                display: none;
+                
+                @include device(desktop) {
+                    @include font-size (16px);
+                    font-weight: normal;
+                }
+            }
+
+            &__introduction {
+                @include font-size (14px);
+                line-height: 2.1;
+                margin: 30px 0;
+                             
+                @include device(desktop) {
+                    @include font-size (16px);
+                    line-height: 2.25;
+                    margin: 78px 0 0;
+                }
+                &-bottom {
+                    margin-top: 0;
+
+                    br {
+                        display: none;
+
+                    @include device(desktop) {
+                        display: block;
+                    }
+                   }
+                }
+            }
+            &__view-more-btn {
+                display: block;
+                @include font-size (14px);
+                margin-left: auto;
+                text-align: left;
+                transition: all 0.3s;
+                width: 160px;
+
+                @include device(desktop) {
+                    @include font-size (16px);
+                    margin:80px 0 10px;
+                    text-align: unset;  
+                }
+                p {
+                    margin-left: auto;
+                }
+            }
+
+            &__view-more-btn:hover {
+                transform: translate(8px);
+            }
+            .arrow {
+                width: 160px;
+                height: 8px;
+                border-bottom: 1px solid #000;
+                border-right: 1px solid #000;
+                transform: skew(45deg);
+            }
+        }
+    }
+    &__contact {
+        &__wrap {
+            background-image: url(../../img/top-contact-img-sp.png);
+            background-size:  cover; 
+            background-repeat: no-repeat;
+            display: flex;
+            flex-flow: column;
+            justify-content: center;
+            margin: 0 auto;
+            text-align: center;
+            height: 257px;
+            width: 100vw;
+
+            @include device(desktop) {
+                background-image: url(../../img/top-contact-img.png);
+                height: 900px;
+            }
+        }
+
+        h2  {
+            @include font-size (25px);
+            font-weight: normal;
+            opacity: .75;
+
+            @include device(desktop) {
+                @include font-size (36px);
+            }
+        }
+
+        h4  {
+            @include font-size (10px);
+            font-weight: normal;
+            margin-top: 6px;
+            opacity: .75;
+            
+            @include device(desktop) {
+                @include font-size (16px);
+                margin-top: 12px;
+            }
+        }
+
+        p {
+            @include font-size (12px);
+            margin-top: 20px;
+            opacity: .75;
+
+            @include device(desktop) {
+                @include font-size (20px);
+                margin-top: 72px;
+            }
+        }
+
+        &-btn {
+            margin-top: 30px;
+
+            @include device(desktop) {
+            margin: 94px 0 55px 0;
+            }
+        }
+
+        &-btn a {
+            background: rgba(28,28,28,0.75);
+            border-radius: 10px;
+            display: block;
+            @include font-size (16px);
+            margin: 0 auto;
+            max-width: 226px;
+            padding: 22px 0px;
+            color: #fff;
+            transition: 0.3s ease-in-out;
+
+            @include device(desktop) {
+                @include font-size (20px);
+                max-width: 292px;
+                padding: 28px 0px;
+            }
+            
+        }
+        &-btn a:hover {
+            background: #313131;
+            color: #FFF;
+        }
+
+        &-btn a:hover:after {
+            border-color: #FFF;
+        }
+    }
+}
