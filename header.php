@@ -23,7 +23,7 @@
                 </div>
                 <nav class="header__gnav-pc">
                     <ul>
-                    <li><a href="">ABOUT</a></li>
+                    <li><a href="about">ABOUT</a></li>
                     <li><a href="">WORKS</a></li>
                     <li><a href="">CONTACT</a></li>
                 </nav>
