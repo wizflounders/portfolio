@@ -31,7 +31,7 @@
         </div>
         <ul class="about__career__list">
             <li>
-                <p class="about__career__list__year"></p>
+                <p class="about__career__list__year-pc"></p>
                 <P class="about__career__list__content">
                     大学卒業後よりモデル事務所に所属しモデル活動を開始。<br>
                     TVCM、スチール、雑誌等広告全般のモデルとして活動
@@ -39,28 +39,32 @@
                 
             </li>
             <li>
-                <p class="about__career__list__year">2016年</p>
+                <p class="about__career__list__year-sp">2016-2017</p>
+                <p class="about__career__list__year-pc">2016年</p>
                 <P class="about__career__list__content">
                     プログラミングスクールにて基礎コース、エキスパートコース修了<br>
                     主にRuby、Ruby on Rails、HTML、CSS　その他 JavaScript、MySQL等を学ぶ。
                 </p>
             </li>
             <li>
-                <p class="about__career__list__year">2017年</p>
+                <p class="about__career__list__year-sp">2017-2018</p>
+                <p class="about__career__list__year-pc">2017年</p>
                 <P class="about__career__list__content">
                     株式会社divにて Webエンジニアインターン<br>
                     オンラインカリキュラムのWebアプリケーションの開発に携わり、UI改善・追加機能実装・管理画面開発/修正等の業務を行う。
                 </p>
             </li>
             <li>
-                <p class="about__career__list__year">2018年</p>
+                <p class="about__career__list__year-sp">2018-2019</p>
+                <p class="about__career__list__year-pc">2018年</p>
                 <P class="about__career__list__content">
                     投資サービスアプリを提供するフィンテック企業にて業務委託契約<br>
                     サーバーエンジニアの下で顧客データ抽出アプリケーションの開発・環境構築を担当
                 </p>
             </li>
             <li>
-                <p class="about__career__list__year">Now!</p>
+                <p class="about__career__list__year-sp">Now</p>
+                <p class="about__career__list__year-pc">Now!</p>
                 <P class="about__career__list__content">
                     フリーランスのWebプログラマーとして活動開始。
                 </p>
