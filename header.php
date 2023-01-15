@@ -23,7 +23,15 @@
                     </a>
                     <p>Mika Terada</p> 
                 </div>
-                <nav class="header__gnav-pc">
+                <!-- スマホ用グローバルメニュー -->
+                <nav class="header__g-nav-sp">
+                    <ul>
+                    <li><a href="about">ABOUT</a></li>
+                    <li><a href="">WORKS</a></li>
+                    <li><a href="contact">CONTACT</a></li>
+                </nav>
+                <!-- PC用グローバルメニュー -->
+                <nav class="header__g-nav-pc">
                     <ul>
                     <li><a href="about">ABOUT</a></li>
                     <li><a href="">WORKS</a></li>

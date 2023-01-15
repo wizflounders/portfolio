@@ -47,8 +47,37 @@
             }
         }
     }
-    
-    &__gnav-pc {
+
+    &__g-nav-sp {
+        display: none;
+        background-color:  rgba(240,144,141,0.74);
+        color: #fff;
+        position: absolute;
+        top  : 0;
+        text-align: center;
+        height: 50vh;
+        width: 100%;
+        z-index : 15;
+
+        @include device(desktop) {
+            display: none;
+        }
+        
+        li {
+            line-height: 50px;
+
+            a {
+                display: block;
+                width: 100%;
+            }
+        }
+
+        li:hover{
+            background-color: rgba(240,144,141,0.74);
+        }
+    }
+
+    &__g-nav-pc {
         display: none;
 
         @include device(desktop) {
@@ -99,6 +128,21 @@
         .bar__bottom{
             bottom: 18px;
         } 
+    }
+
+    .sp__hamburger-menu.active span:nth-child(1) {
+        top : 25px;
+        left: 13px;
+        background :#fff;
+        transform: rotate(-45deg);
+    }
+
+    .sp__hamburger-menu.active span:nth-child(2),
+    .sp__hamburger-menu.active span:nth-child(3) {
+        top: 25px;
+        left: 13px;
+        background :#fff;
+        transform: rotate(45deg);
     }
 
 }
