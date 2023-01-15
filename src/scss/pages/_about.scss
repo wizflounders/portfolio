@@ -11,26 +11,8 @@
                 width: 90%;
             }
         }
-        
-        h2  {
-            @include font-size (30px);
-            font-weight: normal;
-            opacity: .75;
 
-            @include device(desktop) {
-                @include font-size (36px);
-            }
-        }
 
-        h4 {
-            @include font-size (14px);
-            font-weight: normal;
-            opacity: .75;
-
-            @include device(desktop) {
-                @include font-size (16px);
-            }
-        }
 
         &__title {
             font-weight: normal;
@@ -39,6 +21,27 @@
 
             @include device(desktop) {
                 margin: 48px 0 112px;
+            }
+
+            h2  {
+                @include font-size (30px);
+                font-weight: normal;
+                font-family: 'Courgette', serif;
+                opacity: .75;
+    
+                @include device(desktop) {
+                    @include font-size (36px);
+                }
+            }
+    
+            h4 {
+                @include font-size (14px);
+                font-weight: normal;
+                opacity: .75;
+    
+                @include device(desktop) {
+                    @include font-size (16px);
+                }
             }
         }
 
@@ -105,9 +108,11 @@
             @include device(desktop) {
                 margin-bottom: 100px;
             }
+
             h2  {
                 @include font-size (30px);
                 font-weight: normal;
+                font-family: 'Courgette', serif;
                 opacity: .75;
         
                 @include device(desktop) {
@@ -214,6 +219,7 @@
 
         h2 {
             @include font-size (30px);
+            font-family: 'Courgette', serif;
             font-weight: normal;
             opacity: .75;
             text-align: center;
@@ -225,6 +231,7 @@
         }
         h4 {
             @include font-size (14px);
+            font-weight: normal;
             margin-bottom: 48px;
             opacity: .75;
             text-align: center;
@@ -253,6 +260,7 @@
 
             li {
                 @include font-size (14px);
+                font-family: 'Montserrat', serif;
                 line-height: 2;
                 opacity: .75;
 

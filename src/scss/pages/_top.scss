@@ -42,6 +42,7 @@
                 
                 h2 {
                     @include font-size (30px);
+                    font-family: 'Courgette', serif;
                     font-weight: normal;
 
                     @include device(desktop) {
@@ -51,6 +52,7 @@
                 }
                 h3 {
                     @include font-size (16px);
+                    font-family: 'Montserrat', serif;
                     font-weight: normal;
                     
                     
@@ -102,6 +104,7 @@
         }
         &__title-sp {
             @include font-size (30px);
+            font-family: 'Courgette', serif;
             font-weight: normal;
             opacity: .75;
             text-align: center;
@@ -113,6 +116,7 @@
         }
         &__subtitle-sp {
             @include font-size (14px);
+            
             font-weight: normal;
             opacity: .75;
             text-align: center;
@@ -151,6 +155,7 @@
                 @include device(desktop) {
                     display: block;
                     @include font-size (36px);
+                    font-family: 'Courgette', serif;
                     font-weight: normal;
                     margin-top: 12px;
                 }
@@ -190,6 +195,7 @@
             &__view-more-btn {
                 display: block;
                 @include font-size (14px);
+                font-family: 'Montserrat', serif;
                 margin-left: auto;
                 text-align: left;
                 transition: all 0.3s;
@@ -238,6 +244,7 @@
 
         h2  {
             @include font-size (25px);
+            font-family: 'Courgette', serif;
             font-weight: normal;
             opacity: .75;
 

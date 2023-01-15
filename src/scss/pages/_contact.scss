@@ -20,13 +20,14 @@
         }
         &__title {
             color: #fff;
-            font-weight: normal; 
             position: absolute;
             top: 35%;
             left: 15%;
 
             h2 {
                 @include font-size (28px);
+                font-family: 'Montserrat', serif;
+                font-weight: normal;
 
                 @include device(desktop) {
                     @include font-size (40px);
@@ -35,6 +36,7 @@
 
             h4 {
                 @include font-size (14px);
+                font-weight: normal;
 
                 @include device(desktop) {
                     @include font-size (20px);
@@ -55,7 +57,6 @@
         }
 
         &-title {
-            font-weight: normal;
             margin: 32px 0 66px;
             opacity: .75;
             text-align: center;
@@ -66,6 +67,7 @@
 
             h2 {
                 @include font-size (20px);
+                font-weight: normal;
                 margin-bottom: 32px; 
                 
                 @include device(desktop) {
@@ -76,6 +78,7 @@
 
             h4 {
                 @include font-size (14px);
+                font-weight: normal;
                 text-align: left;
 
                 @include device(desktop) {
