@@ -18,8 +18,10 @@
         <header class="header">
             <div class="header__wrap">
                 <div class="header__logo">
-                    <img src="<?php echo get_template_directory_uri(); ?>/img/header-logo.svg" alt="">
-                    <p>Mika Terada</p>
+                    <a href="/">
+                        <img src="<?php echo get_template_directory_uri(); ?>/img/header-logo.svg" alt="">
+                    </a>
+                    <p>Mika Terada</p> 
                 </div>
                 <nav class="header__gnav-pc">
                     <ul>

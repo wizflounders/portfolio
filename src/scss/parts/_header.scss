@@ -20,24 +20,25 @@
         width: 50%;
 
         @include device(desktop) {
-            
             line-height: 105px;
-            
         }
 
-        img {
+        a {
             display: block;
-            margin: auto 0;
             height: 40px;
+            margin: auto 0;
             width: 40px;
 
             @include device(desktop) {
-                display: block;
                 height: 64px;
-                width: 64px;
-                margin: auto 0;
+                width: 64px;  
+            }
+
+            img {
+                width: 100%;
             }
         }
+
         p {
             margin-left: 20px;
 
@@ -46,6 +47,7 @@
             }
         }
     }
+    
     &__gnav-pc {
         display: none;
 
