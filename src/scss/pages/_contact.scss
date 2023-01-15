@@ -1,0 +1,132 @@
+.contact {
+    &__heading {
+        &__wrap {
+                background-image: url(../../img/contact-heading-img.png);
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                border-radius: 17px;
+                height: 233px;
+                margin: 63px auto 0;
+                margin-top: 63px;
+                position: relative;
+                width: 76%;
+
+            @include device(desktop) {
+                height: 670px;
+                margin: 117px auto 0;
+                max-width: 1366px; 
+            }
+        }
+        &__title {
+            color: #fff;
+            font-weight: normal; 
+            position: absolute;
+            top: 35%;
+            left: 15%;
+
+            h2 {
+                @include font-size (28px);
+
+                @include device(desktop) {
+                    @include font-size (40px);
+                }
+            }
+
+            h4 {
+                @include font-size (14px);
+
+                @include device(desktop) {
+                    @include font-size (20px);
+                }
+            }
+        }
+    }
+
+    &__form {
+        &__wrap {
+            margin: 0 auto 55px;
+            width: 85%;
+
+            @include device(desktop) {
+                margin: 0 auto 45px;
+                max-width: 1366px;
+            }
+        }
+
+        &-title {
+            font-weight: normal;
+            margin: 85px 0 108px;
+            opacity: .75;
+            text-align: center;
+
+            h2 {
+                @include font-size (20px);
+                margin-bottom: 32px; 
+                
+                @include device(desktop) {
+                    @include font-size (30px);
+                    margin-bottom: 44px; 
+                }
+            }
+
+            h4 {
+                @include font-size (14px);
+                text-align: left;
+
+                @include device(desktop) {
+                    @include font-size (16px);
+                    text-align: center;
+                }
+            }
+        }
+
+        &__content {
+            opacity: .75;
+
+            input, textarea {
+                padding: 12px;
+                width: 100%;
+
+                @include device(desktop) {
+                    padding: 15px;
+                }
+            }
+
+            textarea {
+                height: 485px;
+
+                @include device(desktop) {
+                    height: 580px;
+                }
+            }
+
+            input[type="submit"] {
+                background-color: #fca4a2;
+                border: none;
+                border-radius: 17px;
+                color: #fff;   
+                display: block;
+                @include font-size (20px);              
+                margin: 45px auto 75px;
+                padding: 20px 0;
+                width: 211px;
+
+                @include device(desktop) {
+                    @include font-size(30px);
+                    margin: 50px auto 75px;
+                    padding: 30px 0;
+                    width: 278px;
+                }
+            }
+
+            .input-name {
+                @include font-size (20px); 
+                padding-bottom: 10px;
+                display: inline-block;
+            }
+        }
+    }
+}
+
+

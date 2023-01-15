@@ -25,7 +25,7 @@
                     <ul>
                     <li><a href="about">ABOUT</a></li>
                     <li><a href="">WORKS</a></li>
-                    <li><a href="">CONTACT</a></li>
+                    <li><a href="contact">CONTACT</a></li>
                 </nav>
                 <!-- スマホのみ表示のハンバーガーメニュー -->
                 <button class="sp__hamburger-menu">
