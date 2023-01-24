@@ -2,8 +2,8 @@
 <html lang="ja">
     <head>
         <meta charset="utf-8">
-        <title>サイトタイトル</title>
-        <meta name="description" content="ディスクリプションを入力">
+        <title>Mika Terada|Web programmer</title>
+        <meta name="description" content="WebプログラマーMika Teradaのポートフォリオサイトです。">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="<?php echo get_template_directory_uri(); ?>/dist/css/style.css" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Courgette&family=Montserrat:wght@400;500;600&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">

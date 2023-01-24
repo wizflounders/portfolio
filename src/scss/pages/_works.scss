@@ -1,0 +1,31 @@
+.works {
+    &__content__wrap {
+        margin: 0 auto;
+        padding: 100px 0 0;
+        text-align: center;
+        width: 80%;
+
+        img {
+            opacity: .75;
+            width: 10%;
+        }
+
+        h2 {
+            @include font-size (30px);
+            font-family: 'Courgette', serif;
+            font-weight: normal;
+            
+            opacity: .75;
+
+            @include device(desktop) {
+                @include font-size (40px);
+                margin-bottom: 30px;
+            }
+            
+        }
+        p {
+            @include font-size (10px);
+            opacity: .75;
+        }
+    }
+}
