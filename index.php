@@ -34,7 +34,7 @@
                     常にお客さまとユーザー目線に立った視点からきめ細かな開発を心がけております。
                 </p>  
             </div>
-            <a class="top__about__content__view-more-btn" href="">
+            <a class="top__about__content__view-more-btn" href="/about/">
                 view more
                 <p class="arrow"></p>
             </a>
