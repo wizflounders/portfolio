@@ -19,7 +19,7 @@
             <div class="header__wrap">
                 <div class="header__logo">
                     <a href="/">
-                        <img src="<?php echo get_template_directory_uri(); ?>/img/header-logo.svg" alt="">
+                        <img src="<?php echo get_template_directory_uri(); ?>/img/header-logo.svg" alt="the logo of mikaterada">
                     </a>
                     <p>Mika Terada</p> 
                 </div>

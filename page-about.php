@@ -7,7 +7,7 @@
         </div>  
         <div class="about__introduction__content">
             <div class="about__introduction__content__image">
-                <img src="<?php echo get_template_directory_uri(); ?>/img/about-introduction-img.png" alt="">
+                <img src="<?php echo get_template_directory_uri(); ?>/img/about-introduction-img.png" alt="my portrait with flowers">
             </div>
             <div class="about__introduction__content__text">
                 <p class="about__introduction__content__text-first">

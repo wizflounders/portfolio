@@ -12,7 +12,7 @@
             </p>
         </div>
         <div class="top__main-visual__image">
-            <img src="<?php echo get_template_directory_uri(); ?>/img/hero-img.png" alt="">
+            <img src="<?php echo get_template_directory_uri(); ?>/img/hero-img.png" alt="programming image -- pink desktop">
         </div>
     </div>
 </section>
@@ -21,7 +21,7 @@
             <h2 class="top__about__title-sp">About</h2>
             <h4 class="top__about__subtitle-sp">私について</h4>
         <div class="top__about__image">
-            <img src="<?php echo get_template_directory_uri(); ?>/img/about-img.png" alt="">
+            <img src="<?php echo get_template_directory_uri(); ?>/img/about-img.png" alt="my portrait">
         </div>
         <div class="top__about__content">
             <h2 class="top__about__content__title-pc">About</h2>
