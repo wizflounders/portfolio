@@ -25,6 +25,7 @@
         }
         h2 {
             @include font-size (10px);
+            font-weight: normal;
             opacity: .75;
         }
     }
