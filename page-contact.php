@@ -3,7 +3,7 @@
     <section class="contact__heading"> 
         <div class= "contact__heading__wrap">
             <div class="contact__heading__title">
-                <h2>Contact</h2>
+                <h1>Contact</h1>
                 <h4>お問合せ</h4>
             </div>
         </div>

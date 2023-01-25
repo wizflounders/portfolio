@@ -4,9 +4,9 @@
         <img src="<?php echo get_template_directory_uri(); ?>/img/ashiato.png" alt="">
         <img src="<?php echo get_template_directory_uri(); ?>/img/ashiato.png" alt="">
         <img src="<?php echo get_template_directory_uri(); ?>/img/ashiato.png" alt="">
-        <h2>Coming Soon...</h2>
-        <p>現在ページの準備を進めております<br>
-           今しばらくお待ちくださいませ</p>
+        <h1>Coming Soon...</h1>
+        <h2>現在ページの準備を進めております<br>
+           今しばらくお待ちくださいませ</h2>
     </div>
 </section>
 <?php get_footer(); ?>

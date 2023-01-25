@@ -2,7 +2,7 @@
 <section class="about__introduction">
     <div class="about__introduction__wrap">
         <div class="about__introduction__title">
-        <h2>About</h2>
+        <h1>About</h1>
         <h4>私について</h4> 
         </div>  
         <div class="about__introduction__content">

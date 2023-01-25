@@ -3,7 +3,7 @@
     <div class="top__main-visual__wrap">
         <div class="top__main-visual__content">
             <div class="top__main-visual__content__name">
-                <h2>Mika Terada</h2>
+                <h1>Mika Terada</h1>
                 <h3>model & Web programmer</h3>
             </div>
             <p>丁寧なコミュニケーションと<br>
@@ -47,7 +47,7 @@
         <h4>お問い合わせ</h4>
         <p>お仕事のご相談やご依頼など、お気軽にご連絡ください</p>
         <div class="top__contact-btn">
-	        <a href="#">お問い合わせはこちら</a>
+	        <a href="/contact/">お問い合わせはこちら</a>
         </div>
     </div>
 </section>

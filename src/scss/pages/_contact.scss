@@ -24,10 +24,11 @@
             top: 35%;
             left: 15%;
 
-            h2 {
+            h1 {
                 @include font-size (28px);
                 font-family: 'Montserrat', serif;
                 font-weight: normal;
+                margin: 0;
 
                 @include device(desktop) {
                     @include font-size (40px);
