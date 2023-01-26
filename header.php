@@ -8,6 +8,7 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link rel="stylesheet "href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
+        <link rel="apple-touch-icon" href="<?php echo get_stylesheet_directory_uri(); ?>/img/favicon.png">
         <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
         <script src="<?php echo get_template_directory_uri(); ?>/dist/js/scripts.min.js"></script>
         <?php wp_head(); ?>
